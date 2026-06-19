@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>pangaali.in — Hello World</title>
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(135deg, #1e3a8a 0%, #6d28d9 100%);
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 20px;
+      padding: 3rem 2.5rem;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+      max-width: 32rem;
+    }
+    h1 { font-size: clamp(2rem, 6vw, 3.25rem); margin-bottom: 0.75rem; }
+    p { font-size: 1.05rem; opacity: 0.9; line-height: 1.6; }
+    .domain { font-weight: 600; letter-spacing: 0.02em; }
+    .stamp { margin-top: 1.75rem; font-size: 0.85rem; opacity: 0.65; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Hello, World! 👋</h1>
+    <p>Your site <span class="domain">pangaali.in</span> is live and serving content.</p>
+    <p class="stamp">Deployed successfully.</p>
+  </main>
+</body>
+</html>
